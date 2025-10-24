@@ -25,7 +25,7 @@ public class InputMgr : Singleton<InputMgr>
     {
         get
         {
-            _editorActions = AssetDatabase.LoadAssetAtPath<InputActionAsset>(AssetDatabase.GUIDToAssetPath("ca9f5fa95ffab41fb9a615ab714db018"));
+            _editorActions = AssetDatabase.LoadAssetAtPath<InputActionAsset>(AssetDatabase.GUIDToAssetPath("e5891171a06138540a63d3caf1759315"));
             return _editorActions;
         }
     }
