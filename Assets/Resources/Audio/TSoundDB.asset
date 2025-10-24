@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba880bf59ed62943bf3ae0ffc78f1ef, type: 3}
+  m_Name: TSoundDB
+  m_EditorClassIdentifier: 
+  _clipsInDB:
+  - ClipName: OAppear
+    Clip: {fileID: 8300000, guid: ebcd6dedbd587654ca65d5cff642ab8c, type: 3}
+  - ClipName: XAppear
+    Clip: {fileID: 8300000, guid: d2f0f25cf8513fd48aceb0c90336ad82, type: 3}
+  - ClipName: GameOver
+    Clip: {fileID: 8300000, guid: 800d0a873a6a7dc44b3a709b8e7460f0, type: 3}
+  - ClipName: Tie
+    Clip: {fileID: 8300000, guid: 0a4a759a02d46394f92729f384ff2875, type: 3}
+  - ClipName: Hide
+    Clip: {fileID: 8300000, guid: 5b5054f3594adf143b07506fa28146d2, type: 3}
