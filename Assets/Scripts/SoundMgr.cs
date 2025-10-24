@@ -158,23 +158,23 @@ public class SoundMgr : Singleton<SoundMgr>
 
 
 
-#if UNITY_EDITOR
-    void OnDrawGizmos()
-    {
-        if (SoundDB == null)
-        {
-            SoundDB = AssetDatabase.LoadAssetAtPath<SoundDatabase>("Assets/Resources/Audio/SoundDB.asset");
-            if (SoundDB == null)
-            {
-                SoundDB = ScriptableObject.CreateInstance<SoundDatabase>();
-                AssetDatabase.CreateAsset(SoundDB, "Assets/Resources/Audio/SoundDB.asset");
-                EditorUtility.SetDirty(SoundDB);
-                AssetDatabase.SaveAssets();
-            }
-            EditorUtility.SetDirty(this);
-            Debug.Log("Try to Find SoundDB");
-        }
-    }
-#endif
+    // #if UNITY_EDITOR
+    //     void OnDrawGizmos()
+    //     {
+    //         if (SoundDB == null)
+    //         {
+    //             SoundDB = AssetDatabase.LoadAssetAtPath<SoundDatabase>("Assets/Resources/Audio/SoundDB.asset");
+    //             if (SoundDB == null)
+    //             {
+    //                 SoundDB = ScriptableObject.CreateInstance<SoundDatabase>();
+    //                 AssetDatabase.CreateAsset(SoundDB, "Assets/Resources/Audio/SoundDB.asset");
+    //                 EditorUtility.SetDirty(SoundDB);
+    //                 AssetDatabase.SaveAssets();
+    //             }
+    //             EditorUtility.SetDirty(this);
+    //             Debug.Log("Try to Find SoundDB");
+    //         }
+    //     }
+    // #endif
 
 }

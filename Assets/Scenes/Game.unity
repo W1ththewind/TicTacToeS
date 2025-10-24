@@ -5815,7 +5815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a93f8e0a8a6d9438a6b14f799a5bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundDB: {fileID: 11400000, guid: f67ab0a1e86d9ec4ca0d2b0bb7aa9576, type: 2}
+  SoundDB: {fileID: 11400000, guid: 71e4cd8ad96fe354f92775e91d7a0ae5, type: 2}
   Mixer: {fileID: 24100000, guid: 4901fc37373fcd94786a15c01b50d497, type: 2}
 --- !u!4 &2145456830
 Transform:
